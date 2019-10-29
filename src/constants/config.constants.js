@@ -4,7 +4,7 @@ export const CONFIG = Object.freeze({
     PORT: 8080,
     HOST: '0.0.0.0'
   },
-  USERNAME: 'test',
-  PASSWORD: 'test',
+  USERNAME: '',
+  PASSWORD: '',
   CACHE_NAME: 'call:data'
 });
