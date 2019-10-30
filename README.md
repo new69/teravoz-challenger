@@ -73,7 +73,7 @@ Get all active calls
 ```
 
 #### [POST] /webhook
-Receive the Teravoz calls. For an complete operation, don't forget to add your user and password from Teravoz API.
+Receive the Teravoz calls. For a complete operation, don't forget to add your user and password from Teravoz API.
 Access the **scr/constants/config.constants.js** and change the variables **USERNAME** and **PASSWORD** with your credentials
 ```json
 {
