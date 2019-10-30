@@ -65,8 +65,7 @@ Get all active calls
             "our_number": "0800000000",
             "their_number": "11999990000",
             "their_number_type": "mobile",
-            "timestamp": "2017-01-01T00:00:00Z",
-            "destination": "901"
+            "timestamp": "2017-01-01T00:00:00Z"
         }
     ]
 }
@@ -85,8 +84,7 @@ Access the **scr/constants/config.constants.js** and change the variables **USER
         "our_number": "0800000000",
         "their_number": "11999990000",
         "their_number_type": "mobile",
-        "timestamp": "2017-01-01T00:00:00Z",
-        "destination": "901"
+        "timestamp": "2017-01-01T00:00:00Z"
     }
 }
 ```
