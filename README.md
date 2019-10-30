@@ -11,11 +11,30 @@ For dashboard you can find out on [here](https://github.com/new69/teravoz_dashbo
 This project needs the [Docker](https://www.docker.com/get-started) installed on your system
 
 ### Commands
+#### Show all commands
+```
+$make
+```
+or
+```
+$make help
+```
+
 #### Up server
 ```
-$make web
+$make server
 ```
 It'll create a server on **http://localhost:8080/**
+
+#### Stop server
+```
+$make stop
+```
+
+#### Show server status
+```
+$make status
+```
 
 #### Tests
 ```
