@@ -142,12 +142,12 @@ export default class Request {
    * Delete resource
    *
    * @param {string} path    - Request delete to endpoint e.g. /api-path/1
-   * @param {object} [query] - Optional request parameters.
    * @param {object} [data]  - Data to be deleted.
+   * @param {object} [query] - Optional request parameters.
    *
    * @returns {Promise}
    */
-  delete(path, query, data) {
+  delete(path, data, query) {
     let request = {
       method: 'delete',
       url   : path,

@@ -1,7 +1,9 @@
-const checkStatus = (req, res) => {
-  res.send({message: 'Server online'});
-};
+import {Router} from 'express';
 
-export const statusRoutes = {
-  checkStatus
-};
+export const statusRoutes = (router = new Router()) => {
+  router.get('/', (req, res) => {
+    res.send({message: 'Server online'});
+  });
+
+  return router;
+}

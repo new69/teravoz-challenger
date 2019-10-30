@@ -15,5 +15,11 @@ services:
     volumes:
       - redis-data:/data
 
+  test:
+    build: .
+    environment:
+      - CI=true
+    command: npm test
+
 volumes:
   redis-data:

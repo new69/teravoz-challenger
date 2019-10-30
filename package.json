@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "babel-node ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,15 @@
     "@babel/core": "^7.6.4",
     "@babel/node": "^7.6.3",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
-    "@babel/preset-env": "^7.6.3"
+    "@babel/preset-env": "^7.6.3",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
