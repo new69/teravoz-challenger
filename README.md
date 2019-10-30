@@ -44,7 +44,7 @@ $make test
 ### Endpoints
 This project have 3 endpoints
 
-#### /
+#### [GET] /
 Verify if server is up
 ```json
 {
